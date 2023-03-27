@@ -24,5 +24,8 @@ export default {
   display: flex;
   flex-direction: column;
 }
+.checked span{
+  text-decoration-line: line-through; 
+}
 </style>
   

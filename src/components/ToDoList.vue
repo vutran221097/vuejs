@@ -20,10 +20,8 @@ export default {
   },
   methods: {
     addNewItem() {
-      console.log("newItem", this.newItem)
       if (!this.newItem) return;
       this.listItem.push({ text: this.newItem, checked: false })
-      console.log("list Item", this.listItem)
       this.newItem = ''
     },
     deleteItem(index) {
